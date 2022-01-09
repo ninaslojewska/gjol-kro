@@ -1,10 +1,97 @@
+@media only screen and (max-width: 600px) {
+html {
+    background: rgb(255, 255, 255);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
 #navigation-bar {
     width: 100%;
     background-color: #3A4A48;
-    height: ;
+    height: 10vh;
 }
 #navigation-container {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    width: 
+    width: 70%;
+    grid-template-columns: 5vw 10vw;
+    grid-gap: 20px;
+    justify-content: center;
+    margin-left: 5vw;
+}
+.nav-flower {
+    position: absolute;
+    opacity: 60%;
+}
+#nav-flower1 {
+    height: 30vh;
+    transform: rotate(100deg) translate(-9vh, 0px);
+}
+#nav-flower2 {
+    height: 22vh;
+    transform: rotate(240deg) translate(-22vh, 370px) scaleX(-1);
+    
+}
+#logo {
+    margin: 10px;
+    margin-top: 2vh;
+    height: 7vh;
+}
+#menu-icon {
+    height: 5vh;
+    margin-top: 2vh;
+}
+header {
+    width: 100%;
+    height: 30vh;
+    background-color: rgb(100, 100, 100);
+}
+#Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+  }
+.heading {
+    font-family: 'Roboto Slab', serif;
+    color: #C8AE67;
+  }
+.paragraph {
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2vh;
+    line-height: 3.5vh;
+    letter-spacing: 0.1vw;
+}
+#welcome {
+    font-size: 5vh;
+    text-align: center;
+    margin-top: 0;
+    padding: 10vh;
+}
+#story-text {
+    width: 50vw;
+    margin-left: 20%;
+}
+#flower1 {
+    width: 50vw;
+    transform: rotate(310deg);
+    opacity: 25%;
+    margin-top: 2vh;
+    
+}
+#story {
+    display: grid;
+    grid-template-columns: 30% 30%;
+    grid-gap: 20vw;
+}
+#zigzag1 {
+    transform: rotate(180deg);
+    position: absolute;
+    width: 100%;
+}
+#food {
+    background:rgb(100, 100, 100);
+    height: 30vh;
+}
 }
