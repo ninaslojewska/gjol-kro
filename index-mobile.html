@@ -8,13 +8,34 @@
     <title>Gjol Kro</title>
 </head>
 <body>
-    <section id="navigation">
-        <a href="#"><img src="assets/logo/Gj›l-Kro_logo_white.svg" alt="logo"></a>
-    <nav>
-        <ul>
-            <li><a href=""></a></li>
-        </ul>
-    </nav>
+    <section id="navigation-bar">
+        <section id="navigation-container">
+            <!--the bar takes up 100% of the width; the container is smaller and has 2 columns-->
+            <div class="topnav">
+                <a href="#home" class="active"><img src="assets/logo/Gj›l-Kro_logo_white.svg" alt="logo"></a>
+                <!-- Navigation links (hidden by default) -->
+                <div id="Links">
+                  <a href="#menu">Menu</a>
+                  <a href="#accomodation">Accomodation</a>
+                  <a href="#history">History</a>
+                  <a href="#contact">Contact</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+                <script>
+                    function myFunction() {
+                      var x = document.getElementById("Links");
+                      if (x.style.display === "block") {
+                        x.style.display = "none";
+                      } else {
+                        x.style.display = "block";
+                      }
+                    }
+                    </script>
+              </div>
+    </section>
     </section>
 </body>
 </html>

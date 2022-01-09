@@ -1,0 +1,10 @@
+#navigation-bar {
+    width: 100%;
+    background-color: #3A4A48;
+    height: ;
+}
+#navigation-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 
+}
