@@ -5,37 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Roboto+Slab&display=swap" rel="stylesheet">
     <title>Gjol Kro</title>
 </head>
 <body>
     <section id="navigation-bar">
+      <img src="assets/images/nav-flower1.png" class="nav-flower" id="nav-flower1" alt="flower">
+      <img src="assets/images/nav-flower2.png" class="nav-flower" id="nav-flower2" alt="flower">
         <section id="navigation-container">
             <!--the bar takes up 100% of the width; the container is smaller and has 2 columns-->
-            <div class="topnav">
-                <a href="#home" class="active"><img src="assets/logo/Gj›l-Kro_logo_white.svg" alt="logo"></a>
-                <!-- Navigation links (hidden by default) -->
-                <div id="Links">
-                  <a href="#menu">Menu</a>
-                  <a href="#accomodation">Accomodation</a>
-                  <a href="#history">History</a>
-                  <a href="#contact">Contact</a>
-                </div>
-                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
-                </a>
-                <script>
-                    function myFunction() {
-                      var x = document.getElementById("Links");
-                      if (x.style.display === "block") {
-                        x.style.display = "none";
-                      } else {
-                        x.style.display = "block";
-                      }
-                    }
-                    </script>
-              </div>
+            <img src="assets/images/menu.png" id="menu-icon" alt="menu icon">
+            <img src="assets/logo/Gj›l-Kro_logo_white.svg" id="logo">
     </section>
     </section>
+    <header>
+      <video autoplay muted loop id="Video">
+        <source src="assets/header-video/COLOURBOX52544323.mp4" type="video/mp4">
+      </video>
+      <h1 class="heading" id="welcome">Welcome to Gjøl Kro</h1>
+    </header>
+    <section id="story">
+      <div id="story-text">
+        <h2 class="heading">Our story and vision</h2>
+        <p class="paragraph">We - myself Peter and my fiancée Natazja
+        leased the inn back in March 2020, with the
+        vision of making the inn a sort of gathering
+        place for all. A place where groups both large
+        and small can enjoy a meal and also guests
+        who just want to drink a cold beer in the bar
+        area. It's not just for town locals, but also for
+        guests from out of town.</p>
+       </div>
+       <img src="assets/images/story-flower.png" id="flower1" alt="flower">
+    </section>
+    <img src="assets/images/zigzag.png" id="zigzag1" alt="zigzag ornament">
+    <section id="food">
+      <h2 class="heading">Not just food but an experience</h2>
+    </section>
+    <section id="locally-sourced"></section>
+    <section id="services"></section>
+    <section id="history"></section>
+    <section id="contact"></section>
+    <footer></footer>
 </body>
 </html>
