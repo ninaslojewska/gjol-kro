@@ -45,7 +45,7 @@ body {
 }
 header {
     width: 100%;
-    height: 50vh;
+    
     background-color: #d9d9d9;
 }
 #Video {
@@ -75,7 +75,7 @@ header {
 #story-text {
     width: 60vw;
     margin-left: 15%;
-    margin-top: 20px;
+    
 }
 #flower3 {
     width: 53vw;
@@ -87,6 +87,7 @@ header {
 #story {
     display: grid;
     grid-template-columns: 40% 60%;
+    margin-top: 25%;
 }
 #zigzag1 {
     transform: rotate(180deg);
