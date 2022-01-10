@@ -9,7 +9,7 @@ body {
 #navigation-bar {
     width: 100%;
     background-color: #3A4A48;
-    height: 10vh;
+    height: 10%;
     position: fixed;
 }
 #navigation-container {
@@ -49,10 +49,8 @@ header {
     background-color: #d9d9d9;
 }
 #Video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
+    width: 100%;
+    margin-top: 10%;
   }
 .heading {
     font-family: 'Roboto Slab', serif;
@@ -70,15 +68,17 @@ header {
 #welcome {
     font-size: 300%;
     text-align: center;
-    padding-top: 200px;
-    margin-top: 0;
+    margin-top: -35%;
+    position: sticky;
+    text-shadow: 2px 2px 2px rgb(70, 70, 70);
 }
 #story-text {
     width: 60vw;
     margin-left: 15%;
+    margin-top: 20px;
 }
 #flower3 {
-    width: 55vw;
+    width: 53vw;
     transform: rotate(310deg);
     opacity: 15%;
     margin-left: 12%;
