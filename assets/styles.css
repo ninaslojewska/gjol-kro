@@ -7,7 +7,7 @@ body {
     width: 100%;
     background-color: #3A4A48;
     height: 10%;
-    position: fixed;
+    position: absolute;
 }
 #navigation-container {
     display: grid;
@@ -17,7 +17,7 @@ body {
     justify-content: center;
 }
 .nav-flower {
-    position: fixed;
+    position: absolute;
     opacity: 60%;
 }
 #nav-flower1 {
@@ -26,10 +26,10 @@ body {
     margin-top: -12%;
 }
 #nav-flower2 {
-    height: 30vw;
-    margin-left: 80%;
-    margin-top: -7%;
-    transform: rotate(240deg) scaleX(-1);
+    height: 28vw;
+    margin-left: 77%;
+    margin-top: -5%;
+    transform: rotate(270deg) scaleX(-1);
 }
 #logo {
     margin: 10px;
@@ -62,7 +62,7 @@ header {
     letter-spacing: 0.1vw;
 }
 #welcome {
-    font-size: 250%;
+    font-size: 9vw;
     text-align: center;
     margin-top: -35%;
     position: relative;
@@ -134,13 +134,13 @@ header {
     background-size: 75%;
     background-position: bottom left;
     background-repeat: no-repeat;
-    height: 560px;
+    height: 540px;
 }
 #services-content {
     display: grid;
     float: right;
     width: 90vw;
-    height: 560px;
+    height: 540px;
     grid-template-columns: 50% 50%;
 }
 #services-text {
@@ -154,14 +154,15 @@ header {
 }
 #services-pic {
     width: 45vw;
-    height: 560px;
+    height: 540px;
     object-fit: cover;
 }
 #history {
     background-color: #d9d9d9;
     background-image: url("images/history-flower.png");
-    background-size: 120%;
+    background-size: 540px;
     background-repeat: no-repeat;
+    background-position: center;
     height: 540px;
 }
 #history-content {
