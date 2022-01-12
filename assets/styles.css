@@ -41,55 +41,6 @@ body {
     margin-top: 2vh;
 }
 
-/* Menu */
-
-.nav-menu {
-    display: block;
-    cursor: pointer;
-}
-
-#navigation-bar span {
-    display: block;
-    background-color: white;
-    height: .2em;
-    width: 2em;
-    margin: .5em;
-    border-radius: 1em;
-    
-}
-
-nav > ul {
-    list-style-type: none;
-}
-
-nav > ul > li > ul {
-    background-color: rgba(58, 74, 72, 0.8);
-    position: absolute;
-	display: none;
-}
-
-nav > ul > li > ul > li {
-    
-    list-style-type: none;
-}
-
-nav > ul > li > ul > li > a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-nav > ul > li:checked > ul span {
-	display: block;
-}
-
-nav > ul > li > ul > li:hover > a {
-	text-decoration: underline;
-    color: rgb(255, 255, 255);
-    transition: .3s ease-in;
-}
-
-
 header {
     width: 100%;
     background-color: #d9d9d9;
@@ -118,6 +69,26 @@ header {
     position: relative;
     text-shadow: 2px 2px 2px rgb(70, 70, 70);
 }
+button {
+    position: absolute;
+    border: none;
+    background-color: #d9d9d950;
+    display: block;
+    width: 25vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    margin-left: 40%;
+    margin-top: -15px;
+}
+button>a {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    font-size: 3vw;
+}
+button:hover {
+    background-color: #d9d9d975;
+}
 #story-text {
     width: 60vw;
     margin-left: 15%; 
@@ -139,25 +110,28 @@ header {
     margin-top: -1px;
     width: 100%;
 }
+#zigzag2 {
+    width: 100%;
+    position: absolute;
+    margin-top: -5px;
+}
 #food {
-    background:#d9d9d9;
-    padding-bottom: 40px;
+    background-image: url("images/food-background.jpg");
+    background-size: 100%;
+    background-position: center 82%;
+    background-repeat: no-repeat;
+    height: 200px;
 }
-#food>h2 {
-    color: black;
+#food-text {
+    display: block;
+    background-color: #0000002f;
+    width: 100%;
+    height: 200px;
     text-align: center;
-    padding-top: 30px;
 }
-#food>div {
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    grid-gap: 20px;
-    justify-content: center;
-}
-.food-pic {
-    width: 25vw;
-    height: 30vw;
-    object-fit: cover;
+#food-text>h2 {
+    padding-top: 75px;
+    text-shadow: 2px 2px 2px rgb(70, 70, 70)
 }
 #locally-sourced {
     display: grid;
@@ -180,59 +154,57 @@ header {
 }
 #services {
     background-color: #d9d9d9;
-    background-image: url("images/services-flower.png");
-    background-size: 75%;
-    background-position: bottom left;
+    background-image: url("images/services.jpg");
+    background-size: 100%;
+    background-position: center 60%;
     background-repeat: no-repeat;
-    height: 540px;
-}
-#services-content {
-    display: grid;
-    float: right;
-    width: 90vw;
-    height: 540px;
-    grid-template-columns: 50% 50%;
+    height: 65vw;
 }
 #services-text {
-    padding-right: 5%;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 65vw;
+    width: 80%;
+}
+#services-text>p {
+    margin-right: 5%;
+    margin-left: 5%;
     padding-bottom: 5%;
 }
 #services-text>h2 {
     color: #3A4A48;
-    margin-bottom: -5%;
-    margin-top: 3%;
-}
-#services-pic {
-    width: 45vw;
-    height: 540px;
-    object-fit: cover;
+    padding-top: 15px;
+    margin-bottom: -10px;
+    margin-left: 5%;
+    margin-top: 0;
 }
 #history {
     background-color: #d9d9d9;
-    background-image: url("images/history-flower.png");
-    background-size: 540px;
+    background-image: url("images/history.jpg");
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    height: 540px;
-}
-#history-content {
-    display: grid;
-    width: 90vw;
-    height: 540px;
-    grid-template-columns: 50% 50%;
+    height: 60vw;
 }
 #history-text {
-    padding-left: 10%;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 60vw;
+    width: 80%;
+    float: right;
 }
 #history-text>h2 {
     color: #3A4A48;
-    margin-bottom: -5%;
-    margin-top: 5%;
+    padding-top: 15px;
+    margin-bottom: -10px;
+    margin-right: 5%;
+    margin-top: 0;
+    text-align: right;
 }
-#history-pic {
-    width: 45vw;
-    height: 540px;
-    object-fit: cover;
+#history-text>p {
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: right;
 }
 #contact {
     background-color: #3A4A48;
