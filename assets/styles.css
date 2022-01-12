@@ -1,7 +1,4 @@
 @media only screen and (max-width: 600px) {
-html {
-    background: rgb(255, 255, 255);
-}
 body {
     margin: 0;
     padding: 0;
@@ -45,7 +42,6 @@ body {
 }
 header {
     width: 100%;
-    
     background-color: #d9d9d9;
 }
 #Video {
@@ -55,33 +51,31 @@ header {
 .heading {
     font-family: 'Roboto Slab', serif;
     color: #C8AE67;
-    font-size: 160%;
+    font-size: 4.5vw;
     letter-spacing: 0.1vw;
   }
 .paragraph {
     color: black;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 100%;
-    line-height: 3.5vh;
+    font-size: 3vw;
+    line-height: 4.5vw;
     letter-spacing: 0.1vw;
 }
 #welcome {
-    font-size: 300%;
+    font-size: 250%;
     text-align: center;
     margin-top: -35%;
-    position: sticky;
+    position: relative;
     text-shadow: 2px 2px 2px rgb(70, 70, 70);
 }
 #story-text {
     width: 60vw;
-    margin-left: 15%;
-    
+    margin-left: 15%; 
 }
 #flower3 {
-    width: 53vw;
-    transform: rotate(310deg);
+    width: 50vw;
     opacity: 15%;
-    margin-left: 12%;
+    margin-left: 8%;
     position: absolute;
 }
 #story {
@@ -114,5 +108,119 @@ header {
     width: 25vw;
     height: 30vw;
     object-fit: cover;
+}
+#locally-sourced {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+#locally-text {
+    width: 55vw;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 9%;
+}
+#flower4 {
+    width: 50vw;
+    height: 50vw;
+    object-fit: cover;
+    object-position: right;
+    opacity: 15%;
+    position: absolute;
+    margin-top: 0;
+}
+#services {
+    background-color: #d9d9d9;
+    background-image: url("images/services-flower.png");
+    background-size: 75%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    height: 560px;
+}
+#services-content {
+    display: grid;
+    float: right;
+    width: 90vw;
+    height: 560px;
+    grid-template-columns: 50% 50%;
+}
+#services-text {
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+#services-text>h2 {
+    color: #3A4A48;
+    margin-bottom: -5%;
+    margin-top: 3%;
+}
+#services-pic {
+    width: 45vw;
+    height: 560px;
+    object-fit: cover;
+}
+#history {
+    background-color: #d9d9d9;
+    background-image: url("images/history-flower.png");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    height: 540px;
+}
+#history-content {
+    display: grid;
+    width: 90vw;
+    height: 540px;
+    grid-template-columns: 50% 50%;
+}
+#history-text {
+    padding-left: 10%;
+}
+#history-text>h2 {
+    color: #3A4A48;
+    margin-bottom: -5%;
+    margin-top: 5%;
+}
+#history-pic {
+    width: 45vw;
+    height: 540px;
+    object-fit: cover;
+}
+#contact {
+    background-color: #3A4A48;
+}
+#contact-text {
+    margin-left: 55%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+#contact-text>h2 {
+    margin-top: 0;
+    color: white;
+}
+#contact-text>p {
+    color: white;
+}
+#contact-text>p::first-line {
+    font-weight: bold;
+}
+#flower6 {
+    width: 50vw;
+    opacity: 60%;
+    position: absolute;
+    transform: rotate(115deg) scaleX(-1);
+    margin-top: -13%;
+    margin-left: -15%;
+}
+footer {
+    background-color: #d9d9d9;
+}
+footer>h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #C8AE67;
+    font-size: 7vw;
+    letter-spacing: 0.1vw;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 0;
 }
 }
