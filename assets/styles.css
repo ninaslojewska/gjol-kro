@@ -2,43 +2,45 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
-#navigation-bar {
+
+/* Navigation Bar */
+
+.navigation-bar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     background-color: #3A4A48;
-    height: 10%;
-    position: absolute;
+    height: 3rem;
+    margin: 0;
+    padding: 0;
 }
-#navigation-container {
-    display: grid;
-    width: 70%;
-    grid-template-columns: 5vw 5vw;
-    grid-gap: 20px;
-    justify-content: center;
-}
+
 .nav-flower {
-    position: absolute;
-    opacity: 60%;
+    opacity: 70%;
 }
-#nav-flower1 {
-    height: 40vw;
+
+.nav-flower1 {
+    margin: 0;
+    padding: 0;
+    height: 35vw;
     transform: rotate(100deg);
-    margin-top: -12%;
 }
+
 #nav-flower2 {
     height: 28vw;
-    margin-left: 77%;
-    margin-top: -5%;
     transform: rotate(270deg) scaleX(-1);
 }
+
 #logo {
-    margin: 10px;
-    margin-top: 50%;
-    height: 100%;
+    height: 5vh;
 }
+
 #menu-icon {
     height: 5vh;
-    margin-top: 2vh;
 }
 
 /* Menu */
@@ -53,19 +55,21 @@ body {
     background-color: white;
     height: .2em;
     width: 2em;
-    margin: .5em;
     border-radius: 1em;
-    
+    margin-bottom: .3em;
 }
+
 
 nav > ul {
     list-style-type: none;
 }
 
 nav > ul > li > ul {
-    background-color: rgba(58, 74, 72, 0.8);
+    background-color: rgba(58, 74, 72, 0.9);
+    width: 100%;
     position: absolute;
 	display: none;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 nav > ul > li > ul > li {
@@ -76,28 +80,22 @@ nav > ul > li > ul > li {
 nav > ul > li > ul > li > a {
     text-decoration: none;
     color: white;
-    font-family: 'Roboto Condensed', sans-serif;
 }
 
-nav > ul > li:checked > ul span {
+nav > ul > li:focus > ul {
 	display: block;
 }
 
 nav > ul > li > ul > li:hover > a {
 	text-decoration: underline;
     color: rgb(255, 255, 255);
-    transition: .3s ease-in;
 }
 
 
-header {
-    width: 100%;
-    background-color: #d9d9d9;
-}
 #Video {
     width: 100%;
-    margin-top: 10%;
-  }
+}
+
 .heading {
     font-family: 'Roboto Slab', serif;
     color: #C8AE67;
