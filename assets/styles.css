@@ -8,6 +8,8 @@ body {
 /* Navigation Bar */
 
 .navigation-bar {
+    margin: 0;
+    padding: 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -15,8 +17,6 @@ body {
     width: 100%;
     background-color: #3A4A48;
     height: 3rem;
-    margin: 0;
-    padding: 0;
 }
 
 .nav-flower {
@@ -35,11 +35,7 @@ body {
     transform: rotate(270deg) scaleX(-1);
 }
 
-#logo {
-    height: 5vh;
-}
-
-#menu-icon {
+.logo {
     height: 5vh;
 }
 
@@ -59,8 +55,8 @@ body {
     margin-bottom: .3em;
 }
 
-
 nav > ul {
+    margin: 0;
     list-style-type: none;
 }
 
@@ -91,6 +87,7 @@ nav > ul > li > ul > li:hover > a {
     color: rgb(255, 255, 255);
 }
 
+/* Video */
 
 #Video {
     width: 100%;
@@ -101,20 +98,23 @@ nav > ul > li > ul > li:hover > a {
     color: #C8AE67;
     font-size: 4.5vw;
     letter-spacing: 0.1vw;
-  }
-.paragraph {
-    color: black;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 3vw;
-    line-height: 4.5vw;
-    letter-spacing: 0.1vw;
 }
+
 #welcome {
     font-size: 9vw;
     text-align: center;
     margin-top: -35%;
     position: relative;
     text-shadow: 2px 2px 2px rgb(70, 70, 70);
+}
+
+/* Intro */
+
+.paragraph {
+    color: black;
+    font-size: 3vw;
+    line-height: 4.5vw;
+    letter-spacing: 0.1vw;
 }
 #story-text {
     width: 60vw;
