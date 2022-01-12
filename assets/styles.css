@@ -5,6 +5,13 @@ body {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.heading {
+    font-family: 'Roboto Slab', serif;
+    color: #C8AE67;
+    font-size: 4.5vw;
+    letter-spacing: 0.1vw;
+}
+
 /* Navigation Bar */
 
 .navigation-bar {
@@ -93,12 +100,7 @@ nav > ul > li > ul > li:hover > a {
     width: 100%;
 }
 
-.heading {
-    font-family: 'Roboto Slab', serif;
-    color: #C8AE67;
-    font-size: 4.5vw;
-    letter-spacing: 0.1vw;
-}
+
 
 #welcome {
     font-size: 9vw;
@@ -131,6 +133,9 @@ nav > ul > li > ul > li:hover > a {
     grid-template-columns: 40% 60%;
     margin-top: 25%;
 }
+
+/* Food */
+
 #zigzag1 {
     transform: rotate(180deg);
     position: absolute;
@@ -156,7 +161,10 @@ nav > ul > li > ul > li:hover > a {
     width: 25vw;
     height: 30vw;
     object-fit: cover;
+
 }
+
+/* Sources */
 #locally-sourced {
     display: grid;
     grid-template-columns: 40% 60%;
@@ -176,6 +184,9 @@ nav > ul > li > ul > li:hover > a {
     position: absolute;
     margin-top: 0;
 }
+
+/* Services 8*/
+
 #services {
     background-color: #d9d9d9;
     background-image: url("images/services-flower.png");
