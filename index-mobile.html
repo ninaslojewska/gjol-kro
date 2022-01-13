@@ -11,23 +11,37 @@
     <title>Gjøl Kro</title>
 </head>
 <body>
-    <section id="navigation-bar">
-      <img src="assets/images/nav-flower1.png" class="nav-flower" id="nav-flower1" alt="flower">
-      <img src="assets/images/nav-flower2.png" class="nav-flower" id="nav-flower2" alt="flower">
-        <section id="navigation-container">
-            <!--the bar takes up 100% of the width; the container is smaller and has 2 columns-->
-            <a href id="nav-icon"><img src="assets/images/menu.png" id="menu-icon" alt="menu icon"></a>
-            <!-- Navigation that i don't know how to implement
-            <div id="nav">
-              <a href="#news">Menu</a>
-              <a href="#accommodation">Accomodation</a>
-              <a href="#History">History</a>
-              <a href="#contact">Contact</a>
-            </div>
-            -->
-            <img src="assets/logo/Gj›l-Kro_logo_white.svg" id="logo">
-    </section>
-    </section>
+
+  <section id="navigation-bar" class="navigation-bar">
+    <img src="assets/images/nav-flower1.png" class="nav-flower nav-flower1" alt="flower">
+    <!--the bar takes up 100% of the width; the container is smaller and has 2 columns-->
+          
+    <nav>
+      <ul>
+        <li tabindex="10">
+
+          <div class="nav-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <ul>
+            <!--Add links-->
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Accomodation</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+
+        </li>
+      </ul>
+    </nav>
+
+    <img src="assets/logo/Gj›l-Kro_logo_white.svg" class="logo">
+    <img src="assets/images/nav-flower2.png" class="nav-flower" id="nav-flower2" alt="flower">
+  </section>
+
     <header>
       <video autoplay muted loop id="Video">
         <source src="assets/header-video/COLOURBOX52544323.mp4" type="video/mp4">
@@ -35,7 +49,9 @@
       <h1 class="heading" id="welcome">Welcome to Gjøl Kro</h1>
       <button><a href="">Menu</a></button>
     </header>
-    <section id="story">
+
+  
+    <section class="story">
       <div id="story-text">
         <h2 class="heading">Our story and vision</h2>
         <p class="paragraph">We - myself Peter and my fiancée Natazja
@@ -51,13 +67,15 @@
        <img src="assets/images/story-flower.png" id="flower3" alt="flower">
        </div>
     </section>
+
     <section id="food">
       <img src="assets/images/zigzag.png" id="zigzag1" alt="zigzag ornament">
       <div id="food-text">
       <h2 class="heading">Not just food but an experience</h2>
       </div>
+      <img src="assets/images/zigzag.png" id="zigzag2" alt="zigzag ornament">
     </section>
-    <img src="assets/images/zigzag.png" id="zigzag2" alt="zigzag ornament">
+    
     <section id="locally-sourced">
       <div>
         <img src="assets/images/locally-flower.png" id="flower4" alt="flower">
@@ -71,6 +89,7 @@
           on what raw goods are available during the season.</p>
        </div>
     </section>
+    
     <section id="services">
       <div id="services-text">
         <h2 class="heading">Our services</h2>
