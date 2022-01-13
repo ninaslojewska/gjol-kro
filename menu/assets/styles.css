@@ -1,0 +1,118 @@
+@media only screen and (max-width: 600px) {
+html {
+    background: rgb(255, 255, 255);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#navigation-bar {
+    width: 100%;
+    background-color: #3A4A48;
+    height: 10%;
+    position: fixed;
+}
+#navigation-container {
+    display: grid;
+    width: 70%;
+    grid-template-columns: 5vw 5vw;
+    grid-gap: 20px;
+    justify-content: center;
+}
+.nav-flower {
+    position: fixed;
+    opacity: 60%;
+}
+#nav-flower1 {
+    height: 40vw;
+    transform: rotate(100deg);
+    margin-top: -12%;
+}
+#nav-flower2 {
+    height: 30vw;
+    margin-left: 80%;
+    margin-top: -7%;
+    transform: rotate(240deg) scaleX(-1);
+}
+#logo {
+    margin: 10px;
+    margin-top: 50%;
+    height: 100%;
+}
+#menu-icon {
+    height: 5vh;
+    margin-top: 2vh;
+}
+header {
+    width: 100%;
+    
+    background-color: #d9d9d9;
+}
+#Video {
+    width: 100%;
+    margin-top: 10%;
+  }
+.heading {
+    font-family: 'Roboto Slab', serif;
+    color: #C8AE67;
+    font-size: 160%;
+    letter-spacing: 0.1vw;
+  }
+.paragraph {
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 100%;
+    line-height: 3.5vh;
+    letter-spacing: 0.1vw;
+}
+#welcome {
+    font-size: 300%;
+    text-align: center;
+    margin-top: -35%;
+    position: sticky;
+    text-shadow: 2px 2px 2px rgb(70, 70, 70);
+}
+#story-text {
+    width: 60vw;
+    margin-left: 15%;
+    
+}
+#flower3 {
+    width: 53vw;
+    transform: rotate(310deg);
+    opacity: 15%;
+    margin-left: 12%;
+    position: absolute;
+}
+#story {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 25%;
+}
+#zigzag1 {
+    transform: rotate(180deg);
+    position: absolute;
+    margin-top: -1px;
+    width: 100%;
+}
+#food {
+    background:#d9d9d9;
+    padding-bottom: 40px;
+}
+#food>h2 {
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+#food>div {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 20px;
+    justify-content: center;
+}
+.food-pic {
+    width: 25vw;
+    height: 30vw;
+    object-fit: cover;
+}
+}
