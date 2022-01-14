@@ -11,11 +11,11 @@
     <title>Gjøl Kro</title>
 </head>
 <body>
-
-  <section id="navigation-bar" class="navigation-bar">
-    <img src="assets/images/nav-flower1.png" class="nav-flower nav-flower1" alt="flower">
-    <!--the bar takes up 100% of the width; the container is smaller and has 2 columns-->
-          
+  <section id="navigation-bar">
+    <div id="nav-flowers">
+      <img src="assets/images/nav-flower1.png" id="nav-flower1" alt="flower"> 
+      <img src="assets/images/nav-flower2.png" id="nav-flower2" alt="flower"> 
+      </div>
     <nav>
       <ul>
         <li tabindex="10">
@@ -28,6 +28,7 @@
 
           <ul>
             <!--Add links-->
+            <li><a href="#"><img src="assets/logo/Gj›l-Kro_logo_white.svg" id="desktop-logo"></a></li>
             <li><a href="#">Menu</a></li>
             <li><a href="#">Accomodation</a></li>
             <li><a href="#">History</a></li>
@@ -36,18 +37,18 @@
 
         </li>
       </ul>
+      <img src="assets/logo/Gj›l-Kro_logo_white.svg" id="mobile-logo">
     </nav>
-
-    <img src="assets/logo/Gj›l-Kro_logo_white.svg" class="logo">
-    <img src="assets/images/nav-flower2.png" class="nav-flower" id="nav-flower2" alt="flower">
   </section>
 
     <header>
+      <div id="header-content">
+      <h1 class="heading" id="welcome">Welcome to Gjøl Kro</h1>
+      <button><a href="">See our Menu</a></button>
+      </div>
       <video autoplay muted loop id="Video">
         <source src="assets/header-video/COLOURBOX52544323.mp4" type="video/mp4">
       </video>
-      <h1 class="heading" id="welcome">Welcome to Gjøl Kro</h1>
-      <button><a href="">Menu</a></button>
     </header>
 
   
