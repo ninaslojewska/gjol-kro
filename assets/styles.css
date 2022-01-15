@@ -63,10 +63,10 @@ html {
     }
     
     /* Burger Menu */
-    
+
     .nav-menu {
         display: block;
-        margin-top: 2vw;
+        margin-top: 3vw;
     }
     
     #navigation-bar span {
@@ -89,11 +89,10 @@ html {
     }
     
     nav > ul > li > ul {
-        background-color: rgba(58, 74, 72, 0.5);
-        width: 70%;
+        background-color: rgba(58, 74, 72, 0.9);
+        width: 100%;
         position: absolute;
         display: none;
-        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     }
     
     nav > ul > li > ul > li {
@@ -105,9 +104,14 @@ html {
     nav > ul > li > ul > li > a {
         text-decoration: none;
         color: white;
+        width: 100%;
     }
     
-    nav > ul > li:focus > ul {
+    nav > ul > li:hover > ul {
+        display: block;
+    }
+    
+    nav > ul > li > ul > li > a {
         display: block;
     }
     
@@ -116,6 +120,10 @@ html {
         color: rgb(255, 255, 255);
     }
     
+    #mobile-logo {
+        margin-top: 2vw;
+    }
+
     
     
     /* Video header */
