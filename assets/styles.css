@@ -61,7 +61,8 @@ html {
     #desktop-logo {
         display: none;
     }
-    /* Menu */
+    
+    /* Burger Menu */
     
     .nav-menu {
         display: block;
@@ -71,7 +72,7 @@ html {
     #navigation-bar span {
         display: block;
         background-color: white;
-        height: 0.1vw;
+        height: 0.5vw;
         width: 5vw;
         border-radius: 1em;
         margin-bottom: 1vw;
